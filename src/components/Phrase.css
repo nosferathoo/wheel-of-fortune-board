@@ -1,0 +1,8 @@
+.Phrase
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 40vh;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.Team {
+    width: 100%;
+}
+
+.TeamName {
+    width:100%;
+    display:block;
+    height: 5vw;
+    background: black;
+    color: white;
+    font-size: 100%;
+    padding: .5vw;
+    text-align: center !important;
+    font-weight: bold;
+    border: solid 5px #fff;
+}
+
+.Team.active .TeamName {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.Team1 {
+    margin: 0 1vw 0 0;
+    
+}
+
+.Team1 * {
+    text-align: right;
+}
+
+.Team2 * {
+    text-align: left;
+}
+
+.Team2 {
+    margin: 0 0 0 1vw;
+}
+
+.Team1 .TeamName {
+    border-radius: 0 1vw 1vw 0;
+    border-left-width: 0;
+}
+
+.Team2 .TeamName {
+    border-radius: 1vw 0 0 1vw;
+    border-right: 0;
+}
+
+.ScoreDisplay {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5vw;
+}

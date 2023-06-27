@@ -1,0 +1,11 @@
+button.Button {
+    border-style: none;
+    border-radius:1vw;
+    padding: 1vw;
+    font-size: 5vw;
+    text-align: center;
+    width:auto;
+}
+button.Button:hover {
+    background: #aaa;
+}

@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
+
+.Hint {
+  font-size: 4vw;
+}
+
+.Teams {
+  display: flex;
+  width:100vw;
+  margin: 5vw;
+}
+
+.MainButtons {
+  justify-items: center;
+}
+
+.MainButtons .Button {
+  font-size: 10vw !important;
+}
+
+.Control-window {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;  
+}

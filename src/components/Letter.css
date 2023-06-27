@@ -1,0 +1,29 @@
+.Letter
+{
+    width: 5vw;
+    height: 5vw;
+    overflow: hidden;
+    border: #000 .2vw solid;
+    border-radius: 1vw;
+    background-color: #fff;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: .1vw;
+    flex-wrap: nowrap;
+    user-select: none;
+    transition: all 500ms;
+}
+
+.shown
+{
+    color:#000;
+    transform: rotateY(0deg);
+}
+
+.hidden
+{
+    color:#fff;
+    transform: rotateY(180deg);
+}

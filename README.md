@@ -8,7 +8,7 @@ This will install all the necessary packages and dependencies:
 ```
 npm install
 ```
-Phrases are retrieved from Google Sheets using the **papaparse** package. Url for sheet can be changed in *App.js*. See this [article] (https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o).
+Phrases are retrieved from Google Sheets using the **papaparse** package. Url for sheet can be changed in *App.js*. See this [article](https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o).
 ## Executing application
 To start type:
 ```
